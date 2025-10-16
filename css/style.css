@@ -1,0 +1,124 @@
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 60px;
+    
+    
+
+}
+
+.cssmenu{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    margin: 0; 
+    padding: 0;
+}
+.cssmenu a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+.search-box {
+    display: flex;
+    align-items: center;
+    border: 1.5px solid #ffffff;
+    border-radius: 15px;
+    padding: 12.5px 10px;
+}
+.search-box input{
+    border: none;
+    outline: none;
+    font-size: 14px;
+    background-color: transparent;
+}
+.search-box i{
+    color: #ffffff;
+}
+.background {
+    position: relative;
+    background-image: url(../image/banner/bckgroundheader.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+
+}
+.banner-bookorcontact{
+    display: flex;
+    align-items: center;
+    padding: 10px 10px;
+    gap: 10px;
+    
+}
+.banner {
+    color: #ffffff;
+    margin: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#imagebanner{
+    position:absolute;
+    left: 770px;
+    top: 100px;
+    margin-bottom: 10px;
+}
+.openhours{
+    display: flex;
+    margin: 60px;
+    gap: 25px;
+    margin-bottom: px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+#clock{
+    border-radius: 10px;
+    height: 45px;
+    width: 50px;
+    padding-top: 20px;
+    padding-left: 19px;
+    background-color: rgb(79, 200, 125);
+    margin-top: 55px;
+}
+#h5-banner{
+    border-radius: 10px 10px 0px 10px;
+    background-color: #72a687;
+    border:solid 2px rgb(1, 167, 70);
+    width: 185px;
+    height: 17px;
+    padding: 2px;
+    padding-top: 8px;
+    padding-left: 7px;
+    margin-left: 10px;
+}
+#bookbot{
+    gap: 5px;
+    display: flex;
+    border: 1.5px solid rgb(245, 99, 80);
+    border-radius: 70px;
+    height: 40px;
+    width: 170px;
+    background-color: rgb(245, 99, 80);
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    
+}
+#contbot{
+    border: 1.5px solid #ffffff;
+     border-radius: 60px;
+    height: 40px;
+    width: 160px;
+    background-color: transparent;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#clock i{
+    font-size: 30px;
+}
+
