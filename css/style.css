@@ -62,9 +62,8 @@ header{
 
 #imagebanner{
     position:absolute;
-    left: 770px;
-    top: 100px;
-    margin-bottom: 10px;
+    bottom: 100px;
+    left: 800px;
 }
 .openhours{
     display: flex;
@@ -100,7 +99,7 @@ header{
     display: flex;
     border: 1.5px solid rgb(245, 99, 80);
     border-radius: 70px;
-    height: 40px;
+    height: 51px;
     width: 170px;
     background-color: rgb(245, 99, 80);
     color: #ffffff;
@@ -121,4 +120,235 @@ header{
 #clock i{
     font-size: 30px;
 }
+.time-doctor-button{
+    position: absolute;
+    bottom: -80px;
+    left: 750px;
+    border: 1.5px solid #ffffff;
+    height: 250px;
+    width: 400px;
+    background-color: #ffffff;
+    border-radius: 30px;
+    padding: 20px;
+    display: flex;
+    gap: 25px;
+}
+.button-doc-type{
+    border: 1.5px solid #d3d3d3;
+    border-radius: 10px;
+    height: 35px;
+    width: 160px;
+    background-color: transparent;
 
+}
+#button-name{
+    
+    border-radius: 7px;
+    height: 35px;
+    width: 160px; 
+    background-color: transparent;  
+}
+#button-date{
+    
+    border-radius: 7px;
+    height: 35px;
+    width: 160px;  
+    background-color: transparent; 
+}
+#button-time{
+    
+    border-radius: 7px;
+    height: 35px;
+    width: 160px; 
+    background-color: transparent;  
+}
+.doctors-button,
+.time-button {
+  display: flex;
+  justify-content: center;
+  gap: 36px;
+}
+.time-doctor-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px; 
+}
+.doctors-button,
+.time-button {
+  display: flex;
+  justify-content: center;
+  gap: 36px; 
+}
+
+.select-with-icon {
+  position: relative;
+  display: flex;
+  align-items: center;
+  border: 1.5px solid #d3d3d3;
+  border-radius: 14px;
+  background-color: transparent;
+  padding: 5px 10px;
+  width: 160px;
+  height: 35px;
+}
+
+.select-with-icon i {
+  color: #2196f3;
+  font-size: 16px;
+  margin-right: 6px;
+}
+
+.select-with-icon select,
+.select-with-icon input {
+  border: none;
+  outline: none;
+  background: transparent;
+  width: 100%;
+  font-size: 14px;
+}
+
+
+.check-button {
+  background-color: #ff6b5b;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 30px;
+  font-size: 15px;
+
+}
+
+.check-button:hover {
+  background-color: #ff5543;
+}
+.image-sousbanner{
+    display: flex;
+    justify-content: space-evenly;
+}
+.about-section{
+    border: 1px solid rgb(246, 243, 240);
+    width: 470px;
+    margin-left: 730px;
+    margin-top: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#titre-about{
+        border-radius: 10px 10px 0px 10px;
+    background-color: #5adb8e;
+    border:solid 2px rgb(1, 167, 70);
+    width: 90px;
+    height: 10px;
+    padding-bottom: 40px;
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-left: 30PX;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#we-are-always{
+    color: #2196f3;
+}
+.about{
+    background-color: rgb(246, 243, 240);
+    position:relative;
+}
+.about-rigth{
+    border: 1px solid rgb(172, 172, 172);
+    border-radius: 15px;
+    margin-top: 45px;
+    
+}
+#petit-image{
+    position:absolute;
+    top: 90px;
+}
+#vice{
+    height: 45px;
+    margin-left: 40px;
+}
+#image1about{
+    height: 210px;
+    position: absolute;
+    bottom: 340px;
+    margin-left: 50px;
+}
+#image2about{
+    height: 210px;
+    position: absolute;
+    bottom: 100px;
+    margin-left: 60px;
+    
+}
+#more-about-us{
+    background-color:#d31500e6 ;
+   gap: 5px;
+    display: flex;
+    border: 1.5px solid rgb(245, 99, 80);
+    border-radius: 70px;
+    height: 51px;
+    width: 150px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    padding-left: 10px;
+    margin-left: 5px;
+    margin-top: 30px;
+}
+.about-paragraph{
+    position: absolute;
+    bottom: 175px;
+    left: 220px;
+    border: 1px solid #5adb8e;
+    background-color: #5adb8e;
+    border-radius: 15px 15px 15px 0px;
+    width: 170px;
+    height: 30px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 80px;
+    padding-left: 29px;
+}
+.sous-about{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    font-size: xx-small;
+    margin-left: 40px;
+    margin-right: 50px;
+}
+.service{
+    background-color:rgb(239, 250, 250) ;
+    border-radius: 10px;
+    position: relative;
+}
+.h6-service{
+    position: relative;
+    border-radius: 20px 20px 0px 20px;
+    background-color: #5adb8e;
+    border:solid 2px rgb(1, 167, 70);
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 20px;
+    width: 90px;
+    height: 5px;
+    padding-bottom: 40px;
+    padding-left: 6px;
+    margin-left: 40px;
+    
+}
+.service-paragraph{
+    position: absolute;
+    width: 390px;
+    left: 800px;
+    TOP: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.h2-service{
+    color: #2196f3;
+    margin-top: 33px;
+    margin-left: 40px;
+}
