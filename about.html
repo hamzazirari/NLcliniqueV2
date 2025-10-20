@@ -12,39 +12,215 @@
 </head>
 
 <body>
-    <header>
-        <!--LOGO-->
-        <div class="header-logo">
-            <a href=""> <img src="image/logoo.png" width="80px" height="" alt="photo"></a>
-        </div>
-        <!--MENU HEADER-->
-        <nav class="navigation-header">
-            <ul class="cssmenu" >
-                <li> <a href="#"> Home </a></li>
-                <li><a href="#"> About </a></li>
-                <li><a href="#"> Doctor </a></li>
-                <li><a href="#"> Service </a></li>
-            </ul>
-        </nav>
-        <!--barre de recherche-->
-        <div class="search-box">
-            <i class="fa-solid fa-magnifying-glass" ></i>
-            <input type="text" placeholder="    Search">
+    <div class="background">
+        <header>
 
-        </div>
 
-    </header>
+            <!--LOGO-->
+            <div class="header-logo">
+                <a href=""> <img src="image/banner/logoo.png" width="80px" height="" alt="photo"></a>
+            </div>
+            <!--MENU HEADER-->
+            <nav class="navigation-header">
+                <ul class="cssmenu">
+                    <li> <a href="#"> Home </a></li>
+                    <li><a href="http://127.0.0.1:5500/about.html"> About </a></li>
+                    <li><a href="http://127.0.0.1:5500/doctor.html"> Doctor </a></li>
+                    <li><a href="http://127.0.0.1:5500/service.html"> Service </a></li>
+
+                </ul>
+            </nav>
+            <!--barre de recherche-->
+            <div class="search-box">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="    Search">
+
+            </div>
+
+        </header>
                           <!------------------ Content------------------>
     <main>
 
         <!---------------About------------------->
-        <section>
-            
-        </section>
+        <section class="about">
+        <div class="about-section">
+
+            <div id="titre-about">
+                <h5> ABOUT US</h5>
+            </div>
+
+            <h1 id="we-are-always">We Are Always Ensure <br> Best Medical Treatment</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam <br>
+                hendrerit metus ex, id ullamcorper massa accumsan volutpat. <br>
+                Etiam viverra pharetra dui, nec aliquet nisi consequat sit <br>
+                amet.</p>
+            <div class="about-rigth">
+                <div class="petit-image">
+                    <img src="image/banner/bild4.png" alt="">
+                    <img src="image/banner/bild3.png" alt="">
+                </div>
+
+                <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>
+                    Etiam hendrerit metus ex, id ullamcorper massa accumsan <br>
+                    volutpat. Etiam viverra pharetra dui, nec aliquet nisi <br>
+                    sit amet.”</p>
+                <img id="vice" src="image/about/vice director.png" alt="">
+            </div>
+            <BUTton id="more-about-us"> More About Us <img src="image/banner/Button3 - Copie.png" alt=""></BUTton>
+        </div>
+        <img id="image1about" src="image/about/bild1.png" alt="">
+        <img id="image2about" src="image/about/bild2.png" alt="">
+        <div class="about-paragraph">
+            <p>
+            <h1>20</h1>
+            Years experiences</p>
+        </div>
+
+    </section>
+
+    <section class="sous-about">
+        <div>
+            <img src="image/about/icon-500.png" alt="">
+            <p>Recovered Patients</p>
+        </div>
+        <div>
+            <img src="image/about/icon-90.png" alt="">
+            <p>Expert Doctors</p>
+        </div>
+        <div>
+            <img src="image/about/icon-95.png" alt="">
+            <p>Satisfaction Rate</p>
+        </div>
+        <div>
+            <img src="image/about/icon-100.png" alt="">*
+            <p>Awards</p>
+        </div>
+    </section>
+
+     <section class="appointment-section">
+        <div class="book">
+            <h5 class="appointment-title">BOOK AN APPOINTMENT</h1>
+            <H3 class="appointment-subtitle">Book Your Appointment by Filling in This Form Below</H3>
+
+            <form class="appointment-form">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Name</label>
+                        <input type="text" placeholder="Your Name">
+                    </div>
+                    <div class="form-group">
+                        <label>Email</label>
+                        <input type="email" placeholder="Input Email">
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Doctor Type</label>
+                        <select>
+                            <option>Choose Doctor Type</option>
+                            <option>General Practitioner</option>
+                            <option>Cardiologist</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Doctor Name</label>
+                        <select>
+                            <option>Choose Doctor Name</option>
+                            <option>Dr. Smith</option>
+                            <option>Dr. Johnson</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Date</label>
+                        <select>
+                            <option>Choose Date</option>
+                    
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Time</label>
+                        <select>
+                            <option>Choose Time</option>
+                    
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>Description</label>
+                    <textarea placeholder="Hallo world!"></textarea>
+                </div>
+
+                <button type="submit" class="btn-submit">Send →</button>
+            </form>
+    </section>
+
+    </div>
+
     </main>
 
-    <footer>
+    <footer class="footer">
+        <div class="footer-left">
+            <img src="image/banner/logoo.png" alt="Nextline Clinique" class="logo">
 
+            <div class="subscribe">
+                <input type="email" placeholder="Email Address">
+                <button>Subscribe</button>
+            </div>
+
+            <p>
+                Nullam ultrices lorem et augue placerat blandit. Nam nisl lacus,
+                imperdiet quis dui pretium, pretium vehicula turpis. Fusce scelerisque
+                fermentum lacinia.
+            </p>
+
+            <div class="social">
+                <i class="fa-brands fa-whatsapp" style="color: #237ec3;"></i>
+                <i class="fa-brands fa-facebook" style="color: #237ec3;"></i>
+                <i class="fa-brands fa-instagram" style="color: #237ec3;"></i>
+            </div>
+        </div>
+
+        <div class="footer-right">
+            <div class="column">
+                <h3>Quick Links</h3>
+                <a href="#">Home</a>
+                <a href="#">About Me</a>
+                <a href="#">Portfolio</a>
+                <a href="#">Blog</a>
+            </div>
+
+            <div class="column">
+                <h3>Work Category</h3>
+                <a href="#">Architecture</a>
+                <a href="#">Nature</a>
+                <a href="#">Modelling</a>
+                <a href="#">Event</a>
+                <a href="#">Branding</a>
+            </div>
+
+            <div class="column">
+                <h3>Legal</h3>
+                <a href="#">Return Policy</a>
+                <a href="#">Shipping Policy</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Services</a>
+            </div>
+            <div class="location">
+                <div class="column">
+                    <h3>Location</h3>
+                    <p><strong>Surabaya</strong> <br>
+                        Jl. Danau Jonge 12, Mayjend
+                        Sungkono, Surabaya
+                    </p>
+                </div>
+            </div>
+
+        </div>
     </footer>
 
 </body>
